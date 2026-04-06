@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-08-03" view-index="0" version="3.4.3392" locale="es_MX">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="-1"/>
+        <field id="tpd3" name="Name" width="183" order="0"/>
+        <field id="tpd4" name="Begin date" width="72" order="1"/>
+        <field id="tpd5" name="End date" width="81" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="divider" value="0.13203125"/>
+        <filters>
+            <filter title="filter.completedTasks" description="" is-built-in="true" is-enabled="false"/>
+            <filter title="filter.dueTodayTasks" description="" is-built-in="true" is-enabled="false"/>
+            <filter title="filter.overdueTasks" description="" is-built-in="true" is-enabled="false"/>
+            <filter title="filter.inProgressTodayTasks" description="" is-built-in="true" is-enabled="false"/>
+        </filters>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="362" order="0"/>
+        <field id="1" name="Default role" width="137" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="ca8f77101e954edfb10c66c29094f032" name="Fase1: Análisis y Definición de Requerimientos" meeting="false" start="2026-08-03" duration="20" complete="0" expand="true">
+            <notes><![CDATA[ Actividades que értenecen a la fase 1:
+Levantamiento de requerimientos
+Diseño de arquitectura de datos
+Prototipo de interfaz]]></notes>
+            <task id="1" uid="ecfed841d52f4a43b81dadeeb82f22e1" name="Levantamiento de requerimientos" meeting="false" start="2026-08-03" duration="6" complete="0" expand="true"/>
+            <task id="2" uid="254a12e5ad404572ad39fd103db884a7" name="Diseño de arquitectura de datos" meeting="false" start="2026-08-07" duration="6" complete="0" expand="true"/>
+            <task id="3" uid="1a623ab9c64947798d17ed8c1e74c3d1" name="Prototipo de interfaz" meeting="false" start="2026-08-17" duration="10" complete="0" expand="true"/>
+        </task>
+        <task id="4" uid="962a19fc14174f84ab4a1f2b17063bf3" name="Fase 2: Desarrollo del Core del Sistema" meeting="false" start="2026-08-31" duration="40" complete="0" expand="true">
+            <notes><![CDATA[Actividades Fase2:
+Configuración del entorno Backend.
+Desarrollo del Frontend.
+Implementación de módulos Alta, Camios, Baja y Carga Masiva ]]></notes>
+            <task id="5" uid="9e7d5fc460924efa9d9d957dfa75915e" name="Configuración del entorno Backend." meeting="false" start="2026-08-31" duration="15" complete="0" expand="true"/>
+            <task id="6" uid="74131f7c7ee747f1ab7b3b5960dcbb9b" name="Desarrollo del Frontend." meeting="false" start="2026-09-21" duration="15" complete="0" expand="true"/>
+            <task id="7" uid="7db2c9ff0c7d4b33964d26b092263a54" name="Implementación de módulos Alta, Camios, Baja y Carga Masiva" meeting="false" start="2026-10-12" duration="10" complete="0" expand="true"/>
+        </task>
+        <task id="8" uid="eb631c2cc31c429f9942988986d31bf4" name="Fase 3: Integración y Pruebas." meeting="false" start="2026-10-26" duration="15" complete="0" expand="true">
+            <task id="9" uid="47930e9d0af34d8fb915f3953dc141dd" name="Pruebas de conectividad" meeting="false" start="2026-10-26" duration="5" complete="0" expand="true"/>
+            <task id="10" uid="ec81cda434ae4f77b1e57f95d0f09674" name="Control de Calidad y Corrección de bugs" meeting="false" start="2026-10-30" duration="11" complete="0" expand="true"/>
+        </task>
+        <task id="11" uid="08e49d05e6564176b2b54f8c7dee330e" name="Fase 4: Despliegue e Implementación" meeting="false" start="2026-11-16" duration="8" complete="0" expand="true">
+            <notes><![CDATA[Actividades de la fase 4;
+Configuración y Migración
+Lanzamiento oficial]]></notes>
+            <task id="12" uid="428d31f331174f7eaa6accfbf3b04d97" name="Configuración y Migración" meeting="false" start="2026-11-16" duration="6" complete="0" expand="true"/>
+            <task id="13" uid="c95c7e9de2ab475b9f9e681eca9e49e3" name="Lanzamiento oficial" meeting="false" start="2026-11-25" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="14" uid="686e19ab5a0b4082ba3188f8737f6911" name="Fase 5: Capacitación y Cierre" meeting="false" start="2026-11-26" duration="3" complete="0" expand="true">
+            <notes><![CDATA[Actividad fase 5:
+Formación y cierre del proyecto]]></notes>
+            <task id="15" uid="4133aac379a14ee69d1199a7f9e479d7" name="Formación y cierre del proyecto" meeting="false" start="2026-11-26" duration="3" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Analisis y requerimientos" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Ramon" function="Default:1" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
